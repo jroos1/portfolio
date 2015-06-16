@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+nav {
+  border-top: 1px solid #E8E8E8;
+  padding-top: 60px;
+}
+
 nav a {
   margin: 20px;
 }
