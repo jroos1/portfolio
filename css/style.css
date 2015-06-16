@@ -7,13 +7,18 @@ h1 {
   margin-bottom: 40px;
 }
 
+h2 {
+  margin-top: 0px;
+}
+
 a {
   text-decoration: none;
 }
 
 nav {
   border-top: 1px solid #E8E8E8;
-  padding-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 nav a {
@@ -22,10 +27,12 @@ nav a {
 
 section {
   border-top: 1px solid #E8E8E8;
-  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 footer {
-  margin-top: 60px;
+  padding-top: 60px;
   margin-bottom: 60px;
+  border-top: 1px solid #E8E8E8;
 }
