@@ -94,12 +94,13 @@ section {
   padding-bottom: 30px;
 }
 
-div.project_tile {
+div.project_tile_hero {
   width: 400px;
   display: inline-block;
 }
 
-div.project_name {
+div.project_tile_reg {
+  width: 200px;
   display: inline-block;
 }
 
