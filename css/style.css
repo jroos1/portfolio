@@ -52,8 +52,8 @@ body {
    font-family: Helvetica, Arial, sans-serif;
    margin:0px;
    background-color: #E8E8E8;
-   padding-left: 200px;
-   padding-right: 200px;
+   width: 70%;
+   margin: auto;
 }
 
 /******************************************
