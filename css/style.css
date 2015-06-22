@@ -78,6 +78,8 @@ h3 {
 h4 {
   font-weight: normal;
   padding-top: 5px;
+  font-size: 18px;
+  margin-top: 0px;
 }
 
 a {
@@ -86,6 +88,7 @@ a {
 
 nav {
   border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -96,7 +99,6 @@ nav a {
 }
 
 section {
-  border-top: 1px solid #C8C8C8;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -137,6 +139,34 @@ ul {
   margin-bottom: 0px;
   padding-top: 0px;
   margin-top: 0px;
+  font-size: 12px;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+input[name=email] {
+  width: 25%;
+}
+
+input[name=message] {
+  width: 50%;
+  height: 100px;
+}
+
+input[name=submit] {
+  width: 10%;
+  margin-bottom: 40px;
+  background-color: green;
+  color: white;
+}
+
+.follow{
+  padding: 5px;
 }
 
 footer {
