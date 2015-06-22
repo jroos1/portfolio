@@ -47,9 +47,9 @@ Developer @GA in NYC
 
 body {
    color: #000;
-   font-size: 14px;
+   font-size: 16px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: Source Sans Pro, Arial, sans-serif;
    margin:0px;
    background-color: #E8E8E8;
    width: 70%;
@@ -71,6 +71,11 @@ h2 {
   margin-top: 0px;
 }
 
+h2.title {
+  display: inline;
+  font-size: 30px;
+}
+
 h3 {
   padding-bottom: 5px;
 }
@@ -84,6 +89,15 @@ h4 {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #94CAD8;
+}
+
+.offsite {
+  margin-left: 1%;
 }
 
 nav {
@@ -115,6 +129,10 @@ section {
   border: 1px solid gray;
 }
 
+.image:hover {
+  border: 1px solid #94CAD8;
+}
+
 .big {
   height: 227px;
 }
@@ -139,6 +157,16 @@ section {
   margin-right: 10%;
 }
 
+.project img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project img:hover {
+  border: 1px solid gray;
+}
+
 ul {
   padding-bottom: 15px;
   margin-top: 5px;
@@ -156,7 +184,6 @@ input {
   display: block;
   padding: 10px;
   margin-top: 15px;
-  border-radius: 10px;
 }
 
 input[name=email] {
@@ -173,6 +200,7 @@ input[name=submit] {
   margin-bottom: 40px;
   background-color: green;
   color: white;
+  border-radius: 5px;
 }
 
 .follow {
