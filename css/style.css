@@ -216,8 +216,19 @@ input[name=submit] {
   border: none;
 }
 
+img.me {
+  width: 30%;
+  float: left;
+  margin: 0% 2% 1% 0%;
+}
+
+p.me {
+  margin-top: 2%;
+}
+
 footer {
   border-top: 1px solid #C8C8C8;
   padding-top: 30px;
   padding-bottom: 60px;
+  clear: both;
 }
