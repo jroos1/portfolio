@@ -109,6 +109,16 @@ section {
   content: " ";
 }
 
+.image {
+  overflow: hidden;
+  height: 150px;
+  border: 1px solid gray;
+}
+
+.big {
+  height: 227px;
+}
+
 .project_tile {
   float: left;
   width: 22%;
@@ -127,8 +137,6 @@ section {
 .hero {
   width: 45%;
   margin-right: 10%;
-  height: 227px;
-  overflow: hidden;
 }
 
 ul {
