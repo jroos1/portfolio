@@ -169,6 +169,14 @@ input[name=submit] {
   padding: 5px;
 }
 
+p.project {
+  width: 60%;
+}
+
+ul.project {
+  border: none;
+}
+
 footer {
   border-top: 1px solid #C8C8C8;
   padding-top: 60px;
