@@ -184,6 +184,7 @@ input {
   display: block;
   padding: 10px;
   margin-top: 15px;
+  color: #C8C8C8;
 }
 
 input[name=email] {
